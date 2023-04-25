@@ -31,9 +31,6 @@ def hello_world():
 
 @app.route("/api/jobs")
 def list_jobs():
-  #response = make_response(jsonify(JOBS))
-  #response.headers["Content-Type"] = "application/json"
-  #return response
   return jsonify(JOBS)
 
 
